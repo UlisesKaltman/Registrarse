@@ -1,0 +1,10 @@
+<form method="post" action='@Url.Action("CheckIniciarSesion","Account")'>
+    
+    Nombre de Usuario: <input type="text" name="Usuario"/><br/>
+    Contraseña: <input type="password" name="Contraseña"/><br/>
+    <input type="Submit" value="Enviar" >
+    <p>Para cambiar de Contraseña</p>
+    <p class="error">@ViewBag.error</p>
+</form>
+<small class="text-muted"><a href='@Url.Action("OlvideContraseña", "Account")'><button>Olvide mi Contraseña</button></a></small> 
+
