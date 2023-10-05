@@ -56,6 +56,17 @@ public class AccountController : Controller
         }
         return View();
     }
+    public IActionResult UsuarioNuevo(string contraseña1 ,string  contraseña2)
+    {   
+        
+        return View();
+    }
+
+
+    public IActionResult Inicio ()
+    {
+        return View();
+    }
 
 
     
