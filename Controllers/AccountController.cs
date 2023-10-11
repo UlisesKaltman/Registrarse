@@ -58,7 +58,7 @@ public class AccountController : Controller
     }
     public IActionResult UsuarioNuevo(string contraseña1 ,string  contraseña2)
     {   
-        
+           
         return View();
     }
 
